@@ -9,14 +9,14 @@ genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 # Choix du modèle
 model = genai.GenerativeModel("gemini-1.5-flash")
 
-st.title("LinkedIn Pitch Booster (Powered by Gemini)")
+st.title("Présentation LinkedIn")
 
-user_cv = st.text_area("Colle ici ton CV / résumé LinkedIn")
+user_cv = st.text_area("C'est quoi ton métier ?")
 
 if st.button("Générer mon pitch"):
-    with st.spinner("Un instant, je réfléchis..."):
+    with st.spinner("Patience, patience..."):
         # Ton prompt
-        prompt_text = f"""Analyse ce CV:
+        prompt_text = f"""Analyse ce métier :
         {user_cv}
         Génère un 'À propos' LinkedIn concis, punchy et professionnel, en français.
         """

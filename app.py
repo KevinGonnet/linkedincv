@@ -18,7 +18,7 @@ if st.button("Générer mon pitch"):
         # Ton prompt
         prompt_text = f"""Analyse ce métier :
         {user_cv}
-        Génère un 'À propos' LinkedIn concis, punchy et professionnel, en français.
+        Génère un 'À propos' LinkedIn concis, mais extrêmement sarcastique et caustique, en français.
         """
         # Appel à l'API Gemini
         response = model.generate_content(prompt_text)

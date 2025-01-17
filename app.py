@@ -1,3 +1,5 @@
+!pip install -q -U google-generativeai
+!pip install os
 
 import google.generativeai as genai
 import os

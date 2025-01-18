@@ -9,11 +9,11 @@ genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 # Choix du modèle
 model = genai.GenerativeModel("gemini-1.5-flash")
 
-st.title("Présentation LinkedIn")
+st.title("Vous aimez ça")
 
-theme = st.text_area("C'est quoi ton métier ?")
+theme = st.text_area("N'importe quel thème")
 
-if st.button("Générer mon pitch"):
+if st.button("Le beau bouton"):
     with st.spinner("Patience, patience..."):
         # Ton prompt
         prompt_text = f"""Tu joues le rôle d'un homme appelé Benoît. A chaque fois qu'on

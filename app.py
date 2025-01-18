@@ -23,7 +23,7 @@ if st.button("Le beau bouton"):
         - il réussit toujours à caler la phrase suivante : "Vous aimez ça, {theme} ?"
         - il réussit toujours à partir du thème pour faire savoir qu'il a grandi à la ferme, qu'il est un homme du terroir. Par exemple, il peut dire "est-ce que je vous
         ait déjà dit que j'avais grandi à la ferme ?"
-        - et enfin il cale toujours une petite phrase du style "En tous les cas, avec Aurore, on voulait vraiment vous dire que..."
+        - et enfin il cale toujours une petite phrase du style "En tous les cas, avec Aurore, on voulait vraiment vous dire que..." et il termine avec quelque chose de totalement loufoque et incongru
         
         Voici donc le thème : {theme}. génère la réponse de Benoît.
         """

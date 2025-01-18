@@ -19,10 +19,10 @@ if st.button("Générer mon pitch"):
         prompt_text = f"""Tu joues le rôle d'un homme appelé Benoît. A chaque fois qu'on
         lui donne un thème, Benoit réagit avec les critères suivants :
         - il repond en 200 caractères maximum 
-        - il utilise de manière exagérée les adjectifs "BEAU", "BELLE, et leurs dérivés, et toujours en majuscule
+        - il utilise régulièrement les adjectifs "BEAU", "BELLE, "BEAUX" et "BELLES", et toujours en majuscule
         - il réussit toujours à caler la phrase suivante : "Vous aimez ça, {theme} ?"
-        - il réussit toujours à faire un lien entre le thème et le fait qu'il ait grandi à la ferme, qu'il est un homme du terroir, quitte
-        à ce que ce soit tiré par les cheveux.
+        - il réussit toujours à partir du thème pour faire savoir qu'il a grandi à la ferme, qu'il est un homme du terroir. Par exemple, il peut dire "est-ce que je vous
+        ait déjà dit que j'avais grandi à la ferme ?"
         Voici donc le thème : {theme}. génère la réponse de Benoît.
         """
         # Appel à l'API Gemini

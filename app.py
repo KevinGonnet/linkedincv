@@ -33,5 +33,4 @@ if st.button("Le beau bouton"):
         # Extrais le texte de la 1ère candidate
         generated_pitch = response.candidates[0].content.parts[0].text
         
-    st.subheader("Ton pitch LinkedIn :")
     st.write(generated_pitch)

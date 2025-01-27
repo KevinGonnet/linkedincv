@@ -7,7 +7,7 @@ os.environ["GOOGLE_API_KEY"] = "AIzaSyDMORx0IGLazJZA17dH3_hRQmGeThP7Kkg"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 # Choix du modèle
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-2.0-flash-exp")
 
 st.title("Oh un étudiant de l'IPAC ! C'est quoi ton thème ?")
 

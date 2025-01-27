@@ -16,8 +16,8 @@ theme = st.text_area("Écris ci-dessous")
 if st.button("Let's go !"):
     with st.spinner("Patience, patience..."):
         # Ton prompt
-        prompt_text = f"""Tu roaste n'importe quel thème que je te donne, en étant extrêmement drôle et sarcastique. Tu t'adresses à des étudiants en bachelor de management
-        du sport à Annecy, ils ont environ 18 an. Sers toi donc de ces infos pour t'adresser à eux comme si tu les connaissais.
+        prompt_text = f"""Tu roaste méchamment n'importe quel thème que je te donne, en étant extrêmement drôle, et pas ringard. Tu t'adresses à des étudiants en bachelor de management
+        du sport à Annecy, ils ont environ 18 ans. Sers toi donc de ces infos pour t'adresser à eux comme si tu les connaissais. Tu les tutoie.
         Voici donc le thème : {theme}. génère la réponse en 300 caractères maximum, qui doit rester juste structurellement et grammaticalement.
         """
         # Appel à l'API Gemini

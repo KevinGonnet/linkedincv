@@ -18,7 +18,7 @@ if st.button("Let's go !"):
         # Ton prompt
         prompt_text = f"""Tu t'adresses à des étudiants en bachelor de management
         du sport à Annecy, ils ont environ 18 ans. Sers toi donc de ces infos pour t'adresser à eux comme si tu les connaissais. Tu les tutoie.
-        Ton but c'est de faire le lien entre le thème suivant et leurs études, même si c'est tiré par les cheveux c'est encore plus drôle.
+        Ton but c'est de faire le lien entre le thème suivant et leurs études, mais c'est toujours tiré par les cheveux et décalé.
         Voici donc le thème : {theme}. génère la réponse en 300 caractères maximum, qui doit rester juste structurellement et grammaticalement.
         """
         # Appel à l'API Gemini

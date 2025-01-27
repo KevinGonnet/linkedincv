@@ -110,7 +110,7 @@ Mise en situation : “Brad Pitt, c’est le GOAT”
 
 ‍
 
-16. Définition Chiller
+16. Définition Chiller (verbe)
 Souvenez-vous de l’expression Netflix and Chill ! Vient de l’anglais “chill”, signifie se détendre.
 Mise en situation : “J’aime trop chiller après le travail”
 

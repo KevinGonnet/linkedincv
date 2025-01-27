@@ -37,12 +37,6 @@ Mise en situation : “Arrête de flex avec tes nouvelles chaussures”
 
 ‍
 
-4. Définition Faire crari 
-Signifie "faire genre", soit faire semblant.
-Mise en situation : “Arrête de faire crari”
-
-‍
-
 5. Définition Aesthethic
 Le fait de trouver quelque chose de beau dans son ensemble. L'aesthetic a gagné en popularité, en particulier sur les plateformes telles que Tumblr, Pinterest, Instagram et TikTok.
 Mise en situation : “C’est super aesthetic ce que la team Studio a fait”

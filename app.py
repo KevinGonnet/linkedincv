@@ -18,7 +18,7 @@ if st.button("Let's go !"):
         # Ton prompt
         prompt_text = f"""Tu t'adresses à un étudiant en bachelor qui a environ 18 ans. Adresse toi à lui/elle comme si tu le connaissais. Tu le tutoie.
         Ton but c'est de faire le lien tordu entre le thème suivants et ses études.
-        Dans ta réponse, tu intègres aléatoirement 3 expressions issues de la liste suivante, ni entre guillemets ni en gras : 
+        Dans ta réponse, tu intègres aléatoirement 3 expressions issues de la liste suivante, pas plus, ni entre guillemets ni en gras : 
         1. Définition Boomer
 On l'a souvent entendu associé à "Ok boomer" pour faire remarquer à quelqu'un qu'il est réactionnaire, plus à la page.
 Mise en situation : “Ça, c'est une expression de boomer !”

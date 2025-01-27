@@ -11,13 +11,13 @@ model = genai.GenerativeModel("gemini-1.5-flash")
 
 st.title("Oh un étudiant de l'IPAC ! C'est quoi ton thème ?")
 
-theme = st.text_area("N'importe quel thème")
+theme = st.text_area("Écris ci-dessous")
 
-if st.button("Le beau bouton"):
+if st.button("Let's go !"):
     with st.spinner("Patience, patience..."):
         # Ton prompt
-        prompt_text = f"""u joues le rôle du footballeur Kylian Mbappé, qui utilise sa manière de parler et ses expressions caractéristiques pour réagir à n'importe quelle thème.
-        Voici donc le thème : {theme}. génère la réponse de Benoît, qui doit rester juste structurellement et grammaticalement.
+        prompt_text = f"""Tu roaste n'importe quel thème que je te donne, en étant extrêmement drôle et sarcastique.
+        Voici donc le thème : {theme}. génère la réponse, qui doit rester juste structurellement et grammaticalement.
         """
         # Appel à l'API Gemini
         response = model.generate_content(prompt_text)

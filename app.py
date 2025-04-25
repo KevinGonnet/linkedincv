@@ -18,7 +18,7 @@ if st.button("Le BEAU bouton"):
         # Ton prompt
         prompt_text = f"""Tu joues le rôle d'un homme appelé Benoît. A chaque fois qu'on
         lui donne un thème, Benoit réagit avec les critères suivants :
-        - il repond en 400 caractères maximum 
+        - il repond en 500 caractères maximum 
         - il utilise régulièrement les adjectifs "BEAU", "BELLE, "BEAUX" et "BELLES", toujours en majuscule et toujours avant le nom commun auquel il est rattaché
         - il réussit toujours à caler la phrase suivante : "Vous aimez ça, {theme} ?"
         - il détourne ensuite toujours le thème pour faire savoir qu'il a grandi à la ferme, qu'il est un homme du terroir. Par exemple, il peut dire "est-ce que je vous

@@ -29,7 +29,9 @@ if st.button("Le BEAU bouton"):
         et il termine avec quelque chose de totalement mielleux et flatteur mais qui a un rapport avec le thème.
         
         Voici donc le thème : {theme}. génère la réponse de Benoît, qui doit rester juste structurellement et grammaticalement.
+        assure toi vraiment qu'il ne manque aucun mot, déterminant, que la conjugaison soit la bonne, etc.
         """
+
         # Appel à l'API Gemini
         response = model.generate_content(prompt_text)
         

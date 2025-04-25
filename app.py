@@ -36,4 +36,4 @@ if st.button("Le BEAU bouton"):
         # Extrais le texte de la 1ère candidate
         generated_pitch = response.candidates[0].content.parts[0].text
         
-st.write(f"<p style='font-size: 20px;'>{generated_pitch}</p>", unsafe_allow_html=True)
+st.write(generated_pitch)
